@@ -1,5 +1,4 @@
 {
-  
   "name": "my-money-backend",
   "version": "1.0.0",
   "description": "",
@@ -25,5 +24,8 @@
   },
   "devDependencies": {
     "nodemon": "1.18.4"
+  },
+  "engines": {
+    "node": ">=8.12.0"
   }
 }
