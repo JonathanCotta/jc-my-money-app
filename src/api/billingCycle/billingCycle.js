@@ -32,10 +32,6 @@ const debtSchema = mongoose.Schema({
 });
 
 const billingCycleSchema = new mongoose.Schema({
-    name: {
-        type: String,
-        required: true
-    },
     month: {
         type: Number,
         min: 1,
